@@ -28,7 +28,7 @@ function SvgFilesPreview({ files, previewRefs, onChange }) {
           <section className="p-5">
             <div className="flex flex-wrap items-start justify-center gap-8 mt-6">
               {files.map((file) => (
-                <div key={file.name} className="flex flex-col items-center">
+                <div key={file.name} className="flex flex-col items-center bg-checkred">
                   <h3 className="mb-3 font-medium text-gray-700">
                     {file.name}
                   </h3>

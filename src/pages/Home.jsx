@@ -56,7 +56,7 @@ export default function SvgToPngPage() {
             {svgCode && (
               <>
                 {/* Code preview */}
-                <div className="flex flex-col items-center mt-6">
+                <div className="flex flex-col items-center mt-6 bg-checkred p-5">
                   <SvgCodePreview svg={svgCode} ref={previewRef} />
 
                   <button
